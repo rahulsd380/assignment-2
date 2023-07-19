@@ -1,0 +1,547 @@
+header nav{
+    display: flex;
+    padding-left: 200px;
+    padding-right: 200px;
+    align-items: center;
+    justify-content: space-between;
+}
+header nav .logo-name a{
+    display: flex;
+    align-items: center;
+    text-decoration: none;
+}
+header nav ul{
+    display: flex;
+    list-style: none;
+    gap: 30px;
+}
+header nav ul a{
+    text-decoration: none;
+    font-family: lato;
+}
+
+header nav ul a:hover{
+    text-decoration: underline;
+}
+
+header .nav-bar .logo-name h2{
+    font-family: sans-serif;
+}
+
+header .nav-bar .logo-name h2 span{
+    color: #eb317b;
+}
+
+header nav ul button{
+    background-color:#eb317b;
+    height: 20px;
+    width: 150px;
+    border-radius: 5px;
+    border: none;
+    outline: none;
+    font-family: lato;
+    color: white;
+}
+
+header nav ul button:hover{
+    cursor: pointer;
+}
+.logo{
+    width: 90px;
+    height: 45px;
+    margin-right: 15px;
+}
+
+.banner{
+    display: flex;
+    justify-content: space-between;
+    padding-left: 200px;
+    padding-right: 200px;
+    align-items: center;
+    background-color: #fdf5f8;
+}
+.info-title{
+    font-size: 2.5rem;
+    font-family: sans-serif;
+    font-weight: 700;
+}
+.info-title2{
+    font-size: 4.2rem;
+    margin-top: -35px;
+    color:#c45e7e;
+    font-family: sans-serif;
+    font-weight: 700;
+}
+
+.info-points{
+    font-size: 1rem;
+    font-family:Tahoma;
+}
+.buttons{
+    display: flex;
+}
+.banner .info button{
+color: white;
+width: 120px;
+height: 40px;
+border: none;
+outline: none;
+border-radius: 5px;
+font-family: sans-serif;
+font-weight: 700;
+
+}
+
+.banner .info .button1{
+    background:linear-gradient(to right top, #f7037a, #eb317b, #de457c, #d1537d, #c45e7e);
+}
+
+.banner .info .button1:hover{
+    cursor: pointer;
+}
+
+.banner .info .button2{
+    background:linear-gradient(to right top, #c45e7e, #d1537d, #de457c, #eb317b, #f7037a);
+}
+
+.banner .info .button2:hover{
+    cursor: pointer;
+}
+
+.banner p{
+    margin-bottom: 15px;
+}
+
+.banner img{
+    width: 350px;
+    margin-left: 300px;
+}
+
+.banner2{
+    display: flex;
+    padding-left: 130px;
+    padding-right: 200px;
+    background-color: #FAF7FD;
+}
+
+.banner2 .info2 button{
+    background:linear-gradient(to right top, #c45e7e, #d1537d, #de457c, #eb317b, #f7037a);
+    border-radius: 5px;
+    color: white;
+    width: 120px;
+    height: 40px;
+    border: none;
+    outline: none;
+    border-radius: 5px
+    font-family: sans-serif;
+    font-weight: 700;
+}
+
+.banner2 .info2 button:hover{
+    cursor: pointer;
+}
+
+.banner2 .info2 .info2-title{
+    font-size: 2.5rem;
+    font-family: sans-serif;
+    font-weight: 700;
+}
+
+.banner2 .info2 .info2-title span{
+    color: #eb317b;
+}
+
+.banner2 .info2 .info2-description{
+    font-size: 1rem;
+    width: 330px;
+    font-family: tahoma;
+}
+
+.banner2 .info2 .our-purpose{
+    font-size: 1.5rem;
+    font-family: sans-serif;
+    font-weight: 700;
+}
+
+.banner2 .info2 .tagline{
+    margin-top: -15px;
+}
+
+.banner2 img{
+    width: 700px;
+}
+
+/*Online Games Funny Videos*/
+
+.video-images .img1 .img1-content img{
+    width: 100px;
+}
+
+.video-images .img1 img{
+    width: 200px;
+
+
+}
+
+
+.video-images{
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: 0;
+}
+
+
+.video-images .img1{
+    position: relative;
+}
+
+.video-images .img1 .img1-content{
+    width: 100%;
+    height: 100%;
+    position: absolute;
+    top: 0;
+    left: 0;
+    background: rgba(0,0,0,0,6);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    opacity: 0;
+    transition: 0.7s;
+    cursor: pointer;
+}
+
+.video-images .img1 .img1-content:hover{
+    opacity: 1;
+}
+
+
+.video-images .img1:hover{
+    border: 3px solid rgb(231, 5, 111);
+    border-radius: 10px;
+}
+
+.video-images{
+    gap: 20px;
+}
+
+.video-image-description{
+    display: flex;
+    justify-content: center;
+    gap: 20px;
+}
+.video-image-description p{
+    width: 200px;
+    font-family: tahoma;
+}
+
+
+.game-heading-title{
+    font-size: 2.5rem;
+    text-align: center;
+    font-family: sans-serif;
+    font-weight: 700;
+}
+
+main .game-image-intro .game-heading h2 span{
+    color: #eb317b;
+}
+
+.game-heading-description{
+    font-size: 1rem;
+    text-align: center;
+    margin-top: -20px;
+}
+
+main .info-about-game{
+    display: flex;
+    margin-top: 100px;
+    justify-content: center;
+    align-items: center;
+
+
+}
+main .info-about-game h2{
+    font-size: 2.5rem;
+    width: 300px;
+    text-align: left;
+    font-family: sans-serif;
+    font-weight: 700;
+
+}
+
+main .info-about-game h2 span{
+    color:#eb317b;
+
+}
+
+main .info-about-game p{
+    font-size: 1rem;
+    width: 300px;
+    text-align: left;
+    font-family: tahoma;
+
+}
+
+main .info-about-game .little-girl{
+    width: 200px;
+    position: relative;
+    left: 150px;
+}
+
+main .info-about-game .horseman{
+    width: 400px;
+
+}
+
+
+main .info-about-game2{
+    display: flex;
+    margin-top: 100px;
+    justify-content: center;
+    align-items: center;
+
+
+}
+main .info-about-game2 h2{
+    font-size: 2.5rem;
+    width: 400px;
+    text-align: left;
+    font-family: sans-serif;
+    font-weight: 700;
+
+}
+
+main .info-about-game2 h2 span{
+    color: #eb317b;
+
+}
+
+main .info-about-game2 p{
+    font-size: 1rem;
+    width: 300px;
+    text-align: left;
+    font-family: tahoma;
+
+}
+
+main .info-about-game2 .little-girl2{
+    width: 180px;
+    position: relative;
+    right: 150px;
+}
+
+main .info-about-game2 .big-girl{
+    width: 400px;
+    height: 400px;
+
+}
+
+
+main .career{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color:#ece9ea;
+}
+
+main .career p{
+    width: 500px;
+    height: 100px;
+}
+
+main .career .positions{
+    display: flex;
+    margin-top: -20px;
+    
+}
+
+main .career .career-section1 h2{
+    font-size: 2rem;
+    color:#eb317b;
+    font-family: sans-serif;
+    font-weight: 700;
+}
+
+main .career .career-section1 p{
+    font-size: 1rem;
+    font-family: tahoma;
+}
+
+main .career .position2{
+    margin-left: -500px;
+    text-align: right;
+}
+
+main .career button{
+color:#ffffff;
+width: 120px;
+height: 40px;
+border: none;
+outline: none;
+border-radius: 5px;
+background-color:#eb317b;
+font-family: sans-serif;
+font-weight: 700;
+margin-top: 10px;
+}
+
+main .career button:hover{
+    cursor: pointer;
+}
+
+main .career .career-section2 img{
+    width: 500px;
+}
+
+main .games-info{
+    margin-top: 70px;
+}
+main .games-info .game-1st-colum, .game-2nd-colum{
+    justify-content: center;
+    margin-bottom: 30px;
+}
+
+
+main .games-info .game-1st-colum{
+    display: flex;
+    gap: 40px;
+}
+
+main .games-info .game-2nd-colum{
+    display: flex;
+    gap: 40px;
+}
+
+main .games-name{
+    display: flex;
+    gap: 10px;
+}
+
+main .game-icons{
+    width: 50px;
+    height: 50px;
+}
+
+.games-info .game-1st-colum .games-name:hover{
+    border: 3px solid rgb(243, 6, 105);
+    border-radius: 40px;
+    cursor: pointer;
+
+}
+
+
+.games-info .game-1st-colum .games-name p:hover{
+    color: rgb(243, 6, 105);
+    cursor: pointer;
+
+}
+
+.games-info .game-2nd-colum .games-name:hover{
+    border: 3px solid rgb(243, 6, 105);
+    border-radius: 40px;
+    cursor: pointer;
+
+}
+.games-info .game-2nd-colum .games-name p:hover{
+    color: rgb(243, 6, 105);
+    cursor: pointer;
+
+}
+
+
+
+footer{
+    background-color: darkslategray;
+    height: 330px;
+    justify-content: center;
+    align-items: center;
+}
+
+footer .footer-logo{
+    width: 90px;
+    height: 45px;
+    margin-right: 15px;
+}
+
+footer .footer-logo-name{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding-top: 30px;
+}
+
+footer .footer-logo-name .footer-website-name{
+    color:white;
+    font-family: sans-serif;
+    font-weight: 700;
+}
+footer .footer-nav-bar1{
+    display: flex;
+    gap: 60px;
+    justify-content: center;
+    color: white;
+    font-family: lato;
+}
+
+footer .footer-icons{
+    display: flex;
+    gap: 50px;
+    justify-content: center;
+    align-items: center;
+    margin-top: -20px;
+    color: white;
+}
+
+footer .footer-icons .social-icons{
+    font-size: 2rem;
+}
+
+footer .footer-nav-bar1 p a{
+    color: white;
+    text-decoration: none;
+    
+}
+
+
+footer .footer-nav-bar1 p a:hover{
+    text-decoration: underline;
+    
+}
+
+footer .footer-icons p a{
+    color: white;
+    
+}
+
+
+
+footer .footer-nav-bar2{
+    display: flex;
+    gap: 30px;
+    justify-content: center;
+    color: white;
+    margin-top: -10px;
+}
+
+footer .footer-nav-bar2 p a{
+    color: white;
+    text-decoration: none;
+    font-family: lato;
+    font-size: 0.7rem;
+}
+
+footer .footer-nav-bar2 p a:hover{
+    text-decoration: underline;
+    
+}
+
+footer .footer-copyright{
+    text-align: center;
+    margin-top: -20px;
+    color: white;
+    font-family: lato;
+    font-size: 0.7rem;
+}
