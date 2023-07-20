@@ -133,7 +133,7 @@ font-weight: 700;
     border: none;
     outline: none;
     border-radius: 5px
-    font-family: sans-serif;
+    font-family:sans-serif;
     font-weight: 700;
 }
 
@@ -544,4 +544,97 @@ footer .footer-copyright{
     color: white;
     font-family: lato;
     font-size: 0.7rem;
+}
+
+
+
+@media screen and (-width: 576px){
+header nav{
+    padding-right: 15px;
+    display: grid;
+    grid-template-columns: 1fr;
+    align-items: center;
+    justify-content: center;
+}
+    header .nav-bar .logo-name a{
+        width: 100px;
+    }
+header .nav-items ul{
+    display: grid;
+    grid-template-columns: 1fr;
+
+}
+
+header .nav-items{
+    justify-content: center;
+    align-items: center;
+}
+
+header .banner{
+    display: grid;
+    grid-template-columns: 1fr;
+    width: 150px;
+}
+
+.banner{
+    justify-content: center;
+    align-items: center;
+}
+
+.banner .info{
+    align-items: center;
+    justify-content: center;
+    padding-left: 85px;
+    padding-bottom: 20px;
+    margin: 0;
+}
+.banner img{
+    width: 400px;
+    margin-left: 0px;
+}
+header .banner2{
+    display: grid;
+    grid-template-rows: 1fr;
+
+}
+
+.banner2{
+    width: 240px;
+}
+.banner2 img{
+    width: 500px;
+}
+
+.banner2 .image2{
+    justify-content: center;
+    align-items: center;
+    margin-left: -85px;
+}
+
+header .banner2 .info2-item h2{
+ text-align: center;
+ margin-left: -40px;
+}
+
+header .banner2 .info2-item p{
+ text-align: center;
+ 
+}
+
+header .info2 .info2-item{
+    text-align: center;
+}
+
+section .game-heading h2{
+    font-size: 1.8rem;
+}
+main .game-image-intro .video-images{
+    display: grid;
+    grid-template-rows: 1fr;
+}
+main .game-image-intro .video-image-description{
+    display: grid;
+    grid-template-rows: 1fr;
+}
+
 }
